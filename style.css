@@ -1,0 +1,92 @@
+body {
+  background-color: #fff;
+}
+
+.table1 {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table1 td {
+  height: 50px;
+  width: 33.33%;
+  border: 1px solid black;
+  padding: 5px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.table1 .td56 {
+  height: 200px;
+}
+
+.table2 {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table2 .row2 > td {
+  vertical-align: top;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.table2 .w28 {
+  width: 28%;
+}
+
+.table2 .w60 {
+  width: 60%;
+}
+
+.table2 .t3 table {
+  width: 100%;
+  border: 1px solid #000000;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  height: 100px;
+  min-width: 150px;
+  padding: 7px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.table1 tr:first-child > td,
+.table1 tr:last-child > td {
+  height: 50px;
+}
+
+.table1 tr:nth-child(2) > td {
+  height: 200px;
+}
+
+.table2-parrent td:first-child {
+  width: 33%;
+}
+
+.table2-parrent > tbody > tr:first-child > td {
+  height: 50px;
+}
+
+.table2-parrent > tbody > tr:first-child > td:first-child {
+  width: 67%;
+}
+
+.table2-child tr:first-child > td:first-child {
+  height: 50px;
+}
+
+.table2-child tr:last-child > td:last-child {
+  height: 50px;
+}
